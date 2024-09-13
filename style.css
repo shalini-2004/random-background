@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: aliceblue;
+    height: 3rem;
+}
+.nav-center{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size:1.5rem;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.btn{
+    margin-top: 1rem;
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+
+}
+a:hover{
+    color: red;
+}
+.btn:hover{
+    color: rgb(237, 12, 12);
+}
